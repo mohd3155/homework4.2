@@ -9,6 +9,7 @@ if num1.isdigit():
 
     elif opr == '2' or opr == '-':
         num2 = input("Please enter the second number")
+
         print(float(num1) - float(num2))
 
     elif opr == '3' or opr == '*':
