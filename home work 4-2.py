@@ -1,7 +1,7 @@
 
 num1 = input("please enter the first number")
 
-if num1.isdigit():
+if num1.isdecimal():
     opr = input("please choose an operation")
     if opr == '1' or opr == '+':
         num2 = input("Please enter the second number")
@@ -30,4 +30,5 @@ if num1.isdigit():
 
 else:
     print("Error")
+    quit()
 
